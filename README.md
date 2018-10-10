@@ -8,10 +8,15 @@ Place `github_repo_cloner.rb` or `github_repo_cloner.py` into the folder where y
 <br/>Then call `ruby github_repo_cloner.rb` or `python github_repo_cloner.rb`
 from your terminal.
 
+## QuickStart
+If you have python or ruby installed use the bash scripts to quickly see the functionality:
+`. ruby.sh`
+`. python.sh`
+
 ## To run from inside this project:
 ```ruby
-bundle install; 
 cd ruby; 
+bundle install; 
 ruby github_repo_cloner.rb
 # your files will be located inside my_repositories folder.
 ```
